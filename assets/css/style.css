@@ -1,0 +1,40 @@
+img {
+	max-width: auto;
+	max-height: auto;
+}
+.navbar {
+	width: 100%;
+	margin: 0 auto;
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+.navbar-header {
+	background-color: lightblue;
+
+}
+.navbar-nav {
+	background-color: lightgreen;
+
+}
+.container {
+	background-color: red;
+	width: 80%;
+}
+.about {
+	background-color: pink;
+	width: 54%;
+}
+.connect {
+	background-color: silver;
+	height: 250px;
+	width: 24%;
+}
+@media(max-width:992px) {
+	.about {
+		width: 100%;
+	}
+	.connect {
+		width: 100%;
+	}
+}
